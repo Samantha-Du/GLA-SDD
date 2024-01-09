@@ -1,0 +1,4 @@
+Wed, 20 Dec 2023 17:07:12 main.py[line:116] INFO Namespace(augmentation='mixup', balanced='balanced', batch_size=32, cuda=True, data_type='balanced_train', early_stop=19500, filename='main', fmax=14000, fmin=50, hop_size=320, learning_rate=0.001, loss_type='clip_bce', mel_bins=64, mode='train', model_type='Cnn14', resume_iteration=0, sample_rate=32000, window_size=1024, workspace='./workspaces/audioset_tagging')
+Wed, 20 Dec 2023 17:07:12 main.py[line:119] INFO Using GPU.
+Wed, 20 Dec 2023 17:07:13 main.py[line:133] INFO Parameters num: 79677988
+Wed, 20 Dec 2023 17:07:13 data_generator.py[line:94] INFO Black list samples: 0
