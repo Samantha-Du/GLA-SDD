@@ -1,6 +1,6 @@
-# GLA-SDD: Global and Local Aware Dual-Branch Network for Songs Deepfake Detection
+# RPA-SDD: Rhythm and Pitch Aware Dual-Branch Network for Songs Deepfake Detection
 
-This repo contains code for our paper: **GLA-SDD: Global and Local Aware Dual-Branch Network for Songs Deepfake Detection**. Our MDS dataset are available at https://drive.google.com/file/d/1rFsvMYihVtk81uFbL7UpyUEs-qBgsX6H/view?usp=drive_link
+This repo contains code for our paper: **RPA-SDD: Rhythm and Pitch Aware Dual-Branch Network for Songs Deepfake Detection**. Our MDS dataset are available at https://drive.google.com/file/d/1rFsvMYihVtk81uFbL7UpyUEs-qBgsX6H/view?usp=drive_link
 
 ## Environments
 The codebase is developed with Python 3.7. Install requirements as follows:
@@ -8,8 +8,8 @@ The codebase is developed with Python 3.7. Install requirements as follows:
 pip install -r requirements.txt
 ```
 
-## Train GLA-SDD from scratch
-You can train GLA-SDD from scratch as follows.
+## Train RPA-SDD from scratch
+You can train RPA-SDD from scratch as follows.
 
 ## 1. Pack waveforms into hdf5 files
 The [scripts/2_pack_waveforms_to_hdf5s.sh](scripts/2_pack_waveforms_to_hdf5s.sh) script is used for packing all raw waveforms into large hdf5 files for speed up training. The packed files looks like:
@@ -61,7 +61,7 @@ CUDA_VISIBLE_DEVICES=0 python3 pytorch/main.py train \
 ```
 
 ## Results
-The GLA-SDD model is trained on a single card NVIDIA GeForce RTX 2080 Ti.  The training takes around 7-9 hours. 
+The RPA-SDD model is trained on a single card NVIDIA GeForce RTX 2080 Ti.  The training takes around 7-9 hours. 
 
 ```
 Validate bal eer: 0.524
