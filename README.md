@@ -1,6 +1,6 @@
-# RPA-SDD: Rhythm and Pitch Aware Dual-Branch Network for Songs Deepfake Detection
+# RPA-SDD: Rhythm and Pitch Aware Dual-Branch Network for Songs Conversion Detection
 
-This repo contains code for our paper: **RPA-SDD: Rhythm and Pitch Aware Dual-Branch Network for Songs Deepfake Detection**. Our MDS dataset are available at https://drive.google.com/file/d/1rFsvMYihVtk81uFbL7UpyUEs-qBgsX6H/view?usp=drive_link
+This repo contains code for our paper: **RPA-SDD: Rhythm and Pitch Aware Dual-Branch Network for Songs Conversion Detection**. Our MDS dataset are available at https://drive.google.com/file/d/1rFsvMYihVtk81uFbL7UpyUEs-qBgsX6H/view?usp=drive_link
 
 ## Environments
 The codebase is developed with Python 3.7. Install requirements as follows:
